@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import { link } from "react-router-dom";
+
+import { styles } from "../styles";
+import { navLink } from "../constants";
+import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav
+      className={`
+        $
+      `}
+    ></nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
