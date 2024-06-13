@@ -1,4 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
+import Cursor from "./components/Cursor";
+import "./index.css";
 
 import {
   About,
@@ -15,6 +17,9 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
+      <div className="relative z-500">
+        <Cursor />
+      </div>
       <div className="realtive z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
