@@ -22,6 +22,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
+    const { target } = e;
     const { name, value } = e.target;
 
     setForm({ ...form, [name]: value });
@@ -68,7 +69,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 xl:flew-row flex-col-reverse flex gap-10 overflow-10`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
