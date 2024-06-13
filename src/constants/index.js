@@ -211,25 +211,25 @@ const projects = [
     source_code_link: "https://github.com/shashi4263/MiStore-clone",
   },
   {
-    name: "Trip Guide",
+    name: "Animation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A 3d animation video using blender where it is rendered using cycles and given a depth of field to surrounding.",
     tags: [
       {
-        name: "nextjs",
+        name: "blender",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "cycles",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "animation",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/shashi4263/blender",
   },
 ];
 
