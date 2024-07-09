@@ -22,8 +22,7 @@ const Hero = () => {
             I am a tech enthusiast with a passion for coding{" "}
             <br className="sm:block hidden" />
             and programming. As a full-stack web developer,
-            <br className="sm:block hidden" /> I enjoy creating innovative
-            solutions.
+            <br className="sm:block hidden" />
           </p>
         </div>
       </div>

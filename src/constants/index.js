@@ -20,6 +20,8 @@ import {
   // tesla,
   // shopify,
   crowdimage,
+  cloneimage,
+  volunteerimage,
   miimage,
   tripguide,
   threejs,
@@ -190,9 +192,55 @@ const projects = [
     source_code_link: "https://github.com/shashi4263/Crowdfunding",
   },
   {
+    name: "Netflix Clone",
+    description:
+      "A Netflix clone built with Next.js, featuring user authentication, efficient database management with Supabase and Prisma, and a responsive UI styled with Tailwind.css and Shadcn/UI. It includes genre-based categories, and a personalized My List feature for users. This project demonstrates the integration of modern web development tools for a seamless user experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "next-auth",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cloneimage,
+    source_code_link: "https://github.com/shashi4263/netflix-clone",
+  },
+  {
+    name: "Volunteer",
+    description:
+      "A volunteer project built with the MERN stack designed for people who want to donate money for help. It includes a Donate Us page for contributions and a Contact Us page where users can send messages directly. This project highlights the integration of MongoDB, Express, React, and Node.js for a seamless donation platform.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: volunteerimage,
+    source_code_link: "https://github.com/shashi4263/volunteer",
+  },
+  {
     name: "MI clone",
     description:
-      "Web application that enables users to search for items, view cost, and and wonderful UI.",
+      "A MI clone website built with React featuring a dynamic hero section, engaging banner animations, and a robust search functionality. It offers a seamless and responsive user experience. The project showcases modern web development techniques and interactive UI elements.",
     tags: [
       {
         name: "react",

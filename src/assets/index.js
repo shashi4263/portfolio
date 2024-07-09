@@ -27,6 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import crowdimage from "./crowdimage.png";
+import cloneimage from "./cloneimage.png";
+import volunteerimage from "./volunteerimage.png";
 import miimage from "./miimage.png";
 import tripguide from "./tripguide.png";
 
@@ -57,6 +59,8 @@ export {
   starbucks,
   tesla,
   crowdimage,
+  cloneimage,
+  volunteerimage,
   miimage,
   tripguide,
 };
