@@ -27,7 +27,12 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import crowdimage from "./crowdimage.png";
+<<<<<<< HEAD
 import healthcare from "./healthcare.png";
+=======
+import cloneimage from "./cloneimage.png";
+import volunteerimage from "./volunteerimage.png";
+>>>>>>> e1d5c2330ad4006a35f68ae7673ad26111ad89bd
 import miimage from "./miimage.png";
 import netfliximage from "./netfliximage.png";
 import volunteerimage from "./volunteerimage.png";
@@ -61,6 +66,8 @@ export {
   tesla,
   healthcare,
   crowdimage,
+  cloneimage,
+  volunteerimage,
   miimage,
   netfliximage,
   tripguide,
