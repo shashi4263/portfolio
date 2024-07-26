@@ -27,7 +27,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import crowdimage from "./crowdimage.png";
+import healthcare from "./healthcare.png";
 import miimage from "./miimage.png";
+import netfliximage from "./netfliximage.png";
+import volunteerimage from "./volunteerimage.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -56,7 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  healthcare,
   crowdimage,
   miimage,
+  netfliximage,
   tripguide,
+  volunteerimage,
 };
