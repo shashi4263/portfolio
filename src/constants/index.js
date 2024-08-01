@@ -20,12 +20,7 @@ import {
   // tesla,
   // shopify,
   crowdimage,
-<<<<<<< HEAD
   healthcare,
-=======
-  cloneimage,
-  volunteerimage,
->>>>>>> e1d5c2330ad4006a35f68ae7673ad26111ad89bd
   miimage,
   netfliximage,
   tripguide,
@@ -195,7 +190,7 @@ const projects = [
       },
     ],
     image: healthcare,
-    source_code_link: "https://github.com/shashi4263/healthcare_carepulse",
+    source_code_link: "https://github.com/shashi4263/medicare_carepulse",
   },
   {
     name: "Decentralized Crowdfunding",
@@ -236,7 +231,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: cloneimage,
+    image: netfliximage,
     source_code_link: "https://github.com/shashi4263/netflix-clone",
   },
   {
@@ -285,48 +280,7 @@ const projects = [
     image: miimage,
     source_code_link: "https://github.com/shashi4263/MiStore-clone",
   },
-  {
-    name: "Netflix clone",
-    description:
-      "A Netflix clone built using Next.js and various modern web development tools, including React, Supabase, Next-Auth, Prisma, Tailwind.css, and Shadcn/UI.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "green-text-gradient",
-      },
-      {
-        name: "clone",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: netfliximage,
-    source_code_link: "https://github.com/shashi4263/netflix-clone",
-  },
-  {
-    name: "Volunteer",
-    description:
-      "A volunteer project built with the MERN stack, aimed at providing a platform for people to donate money for those in need. It includes a user-friendly interface with a navbar, homepage, donation page, and contact page.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "express",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: volunteerimage,
-    source_code_link: "https://github.com/shashi4263/volunteer",
-  },
+
   {
     name: "Animation",
     description:
